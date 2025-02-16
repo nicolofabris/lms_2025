@@ -24,6 +24,7 @@ export default [
       "react-refresh": reactRefresh,
     },
     rules: {
+      "react/prop-types": "off",
       "no-unused-vars": [
         "warn",
         {
