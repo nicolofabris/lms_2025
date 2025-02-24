@@ -1,9 +1,11 @@
 const Loading = () => {
   return (
-	<div>
-		<h1>Loading</h1>
-	</div>
-  )
-}
+    <div className="min-h-screen flex items-center justify-center">
+      <div className="w-16 sm:w-20 aspect-square border-4 border-gray-300 border-t-4 border-t-blue-400 rounded-full animate-spin">
 
-export default Loading
+	  </div>
+    </div>
+  );
+};
+
+export default Loading;
