@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 const Rating = ({ initialRating, onRate }) => {
   const [rating, setRating] = useState(initialRating || 0);
 
-  const handleRating = (valie) => {
+  const handleRating = (value) => {
     setRating(value);
     if (onRate) onRate(value);
   };
